@@ -5,3 +5,7 @@ btn.addEventListener('click',()=>{
     nav.classList.toggle("active")
     btn.classList.toggle("active")
 })
+
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
