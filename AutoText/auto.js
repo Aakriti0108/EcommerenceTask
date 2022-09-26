@@ -1,11 +1,11 @@
-const text = 'lets  go outside DELHI and visit london enjoy the vacation';
+const para =  ' lets  go outside DELHI and visit london enjoy the vacation.'
 
 let index=0;
 function writeText()
 {
-    document.body.innerText=text.slice(0,index);
+    document.body.innerText=para.slice(0,index);
     index++;
-    if(index> text.length-1)
+    if(index> para.length-1)
     {
         index=0
     }
